@@ -1,0 +1,39 @@
+text {
+  padding-left: 20px;
+}
+#footer-container {
+  height: 100%;
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-left: 70px;
+}
+#fifa-partners-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 30px;
+  border: 1px solid gray;
+}
+
+#fifa-partner-img {
+  width: 80px;
+}
+#fifa-explore {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  padding: 10px;
+  border-bottom: 2px solid gray;
+}
+#logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+#fifa-term {
+}
+label {
+  font-weight: bold;
+}

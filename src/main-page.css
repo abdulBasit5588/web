@@ -1,0 +1,48 @@
+
+*{
+    margin: 2px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    flex: 2;
+    
+}
+.middle-container{
+    
+    display: flex;
+    flex: 6;
+    flex-direction: row;
+}
+    .left-sidebar{
+
+        flex: 2;
+        height: 50vh;
+
+
+    }
+    .middle-section{
+        flex: 8;
+        display: flex;
+        flex-direction: column;
+
+    }
+        .middle-top{
+            
+            flex: 5;
+            background-color: rgb(38, 151, 191);
+
+
+        }
+        .middle-bottom{
+            flex: 5;
+
+        }
+    
+
+.footer{
+    flex: 2;
+
+}

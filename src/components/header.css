@@ -1,0 +1,31 @@
+* {
+  margin: 1px;
+}
+#header-container {
+  display: flex;
+  flex-direction: column;
+}
+#logo-container {
+  flex: 1;
+  margin-bottom: 10px;
+}
+#logo-img {
+  height: 20px;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: center;
+  margin:10px 0px 10px 0px ;
+  border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+
+  
+}
+.nav-element{
+  padding: 7px 5px 7px 5px;
+}
+.nav-element:hover{
+  color: rgb(96, 153, 211);
+  background-color: rgb(247, 249, 252);
+}

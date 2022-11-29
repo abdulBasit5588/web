@@ -1,0 +1,44 @@
+#middle-top {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  text-align: left;
+}
+#middle-left {
+  flex: 1;
+  padding: 5px 5px 0px 10px;
+}
+#middle-right {
+  flex: 3.5;
+  display: flex;
+  flex-direction: column;
+}
+#right-top {
+  flex: 1;
+  flex-wrap: wrap;
+  display: flex;
+  
+}
+#card-container {
+  width: 40%;
+  margin: 1%;
+}
+#right-bottom {
+  flex: 1;
+  padding: 2px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+}
+#card-container-right-bottom {
+  width: 30%;
+}
+#list-tile-img {
+  max-width: 50px;
+  border-radius: 10px;
+}
+#leading {
+  border-radius: 10px;
+  padding: 3px;
+  background-color: aliceblue;
+}
